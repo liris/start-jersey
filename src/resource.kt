@@ -1,4 +1,4 @@
-@Path("/")
+@Path("plus")
 open class HelloResource {
     @GET
     fun plus(): Int {
